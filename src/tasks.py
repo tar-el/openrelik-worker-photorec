@@ -76,7 +76,6 @@ def command(self, pipe_result: str = None, input_files: list = None, output_path
                 options.append("jpg,enable")
             else:
                 options.append("everything,enable")
-                options.append("jpg,disable")
             options.append("freespace,search")
             final_command = base_command + [",".join(options)]
 
